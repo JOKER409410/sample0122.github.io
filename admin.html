@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理者ページ - ボードゲームカフェ</title>
+  <link rel="stylesheet" href="styles/admin.css">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="admin-container">
+    
+    <!-- ヘッダー -->
+    <header class="admin-header">
+      <h1>🎮 管理者ダッシュボード</h1>
+      <div class="user-info">
+        <span>👤 管理者</span>
+        <button class="logout-btn">ログアウト</button>
+      </div>
+    </header>
+    
+    <!-- メインコンテンツエリア -->
+    <main class="main-content">
+      <!-- ここにコンテンツを追加 -->
+    </main>
+    
+  </div>
+  
+  <script>
+    // ログアウトボタン
+    document.querySelector('.logout-btn').addEventListener('click', function() {
+      if (confirm('ログアウトしますか?')) {
+        alert('ログアウトしました');
+        // window.location.href = 'index.html';
+      }
+    });
+  </script>
+</body>
+</html>
